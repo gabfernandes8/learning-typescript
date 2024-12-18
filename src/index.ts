@@ -14,7 +14,7 @@ const app = express()
 //      let products: number
 
 app.get('/products', (req: Request, res: Response) => {
-    return res.send('pintoooo')
+    return res.send('Meus Produtos')
 })
 
 app.listen(3000, () => {
